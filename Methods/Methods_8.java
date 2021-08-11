@@ -1,5 +1,4 @@
 package Methods;
-
 //Q9. Write a Java program to input two numbers and display whether they are twin 
 
        //prime or not, using  a method prime(int n) which returns 1 if 'n' is a prime 
