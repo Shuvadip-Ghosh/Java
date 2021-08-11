@@ -33,10 +33,10 @@ class Twin_Prime
                 if((r1==1) &&(r2==1)){
                         int d=Math.abs(n1-n2);
                         if(d==2){
-                        System.out.println(n1+" and "+n2+" are twin prime");
+                                System.out.println(n1+" and "+n2+" are twin prime");
                         }
                         else{
-                        System.out.println(n1+" and "+n2+" are not twin prime");
+                                System.out.println(n1+" and "+n2+" are not twin prime");
                         }
                 }
                 else{
