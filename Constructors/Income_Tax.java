@@ -15,19 +15,16 @@ package Constructors;
 
 public class Income_Tax {
     String name; double ti, tax;
-    Income_Tax()
-    {
+    Income_Tax(){
         name=null;
         ti=0.0d;
         tax=0.0d;
     }
-    Income_Tax(String nm, double inc)
-    {
+    Income_Tax(String nm, double inc){
         name=nm;
         ti=inc;
     }
-    void calculate()
-    {
+    void calculate(){
         if(ti<=300000)
            tax=0.0;
         else if(ti<=600000)
@@ -37,14 +34,12 @@ public class Income_Tax {
         else
             tax=((ti-1000000)*0.3)+50000;
     }
-    void display()
-    {
+    void display(){
         System.out.println("Name:"+name);
         System.out.println("Total Yearly Income Rs."+ti);
         System.out.println("Tax payable: Rs."+tax);
     }
-    public static void main(String[] args)
-    {
+    public static void main(String[] args){
         Income_Tax ob=new Income_Tax();
         Income_Tax ob1=new Income_Tax("Samuel Franklin", 8500000);
         ob1.calculate();

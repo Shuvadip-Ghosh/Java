@@ -19,21 +19,18 @@ package Constructors;
 
 public class Increment {
     String name; double basic, up_basic; int age;
-    Increment()
-    {
+    Increment(){
         name= "";
         basic=0.0d;
         up_basic=0.0d;
         age=0;
     }
-    Increment(String nm, double b, int a)
-    {
+    Increment(String nm, double b, int a){
         name=nm;
         basic=b;
         age=a;
     }
-    void compute()
-    {
+    void compute(){
         if(age>=55)
           up_basic=basic+basic*0.25;
         else
@@ -42,14 +39,12 @@ public class Increment {
         else
            up_basic=basic+basic*0.12;
     }
-    void print()
-    {
+    void print(){
         System.out.println("Name:"+name);
         System.out.println("Old Basic: "+basic);
         System.out.println("Updated Basic: "+up_basic);
     }
-    public static void main(String[] args)
-    {
+    public static void main(String[] args){
         Increment ob=new Increment();
         Increment ob1=new Increment("Samuel Franklin", 8500000, 45);
         ob1.compute();

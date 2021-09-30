@@ -15,7 +15,7 @@ public class Methods_1 {
             
         }
     }
-    public static void main(String[] args) {
+    public static void main() {
         Methods_1 ob = new Methods_1();
         int j;
         for (j=50;j<= 119; j++)

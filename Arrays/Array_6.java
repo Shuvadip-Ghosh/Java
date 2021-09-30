@@ -30,6 +30,6 @@ public class Array_6 {
             if (prime_res == 1)
                 sum = sum +arr[i];
         }
-        System.out.println(sum);
+        System.out.println("sum of all the elements are : "+sum);
     }
 }

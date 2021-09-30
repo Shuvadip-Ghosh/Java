@@ -28,8 +28,6 @@ public class basics {
     else {
         // If condition is False then this block will get executed
     }
-
-
     // Ternery Operator
     // max = (n1 > n2) ? n1 : n2;
     } 
