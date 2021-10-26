@@ -2,11 +2,12 @@
 //        prime or not, using  a method prime(int n) which returns 1 if 'n' is a prime 
 //       number otherwise it returns 0.
 //       A pair of prime numbers whose difference is 2, is called Twin Prime.
-//       Example: 11, 13; 17,19; etc are twin primes.
+//       Example: 11, 13; 
+// `              17,19; etc are twin primes.
 
 package Methods;
 import java.util.*;
-class Twin_Prime
+class Methods_8
 {
         int prime(int n)
         {
@@ -20,10 +21,10 @@ class Twin_Prime
                 else
                         return 0;
         }
-        void main()
+        public static void main(String[] args) 
         {
                 Scanner sc=new Scanner(System.in);
-                Twin_Prime ob = new Twin_Prime();
+                Methods_8 ob = new Methods_8();
                 System.out.println("Enter the two number");
                 int n1=sc.nextInt();
                 int n2=sc.nextInt();
@@ -40,7 +41,7 @@ class Twin_Prime
                         }
                 }
                 else{
-                        System.out.println(n1+" and "+n2+" both are not prime numbers");
+                        System.out.println(n1+" or "+n2+" are not prime numbers");
                 }
 
         }

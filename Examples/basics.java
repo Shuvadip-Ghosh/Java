@@ -1,4 +1,4 @@
-package Examples;
+ 
 import java.util.Scanner; //import scanner class for taking input
 public class basics {
     public static void main(String args[]){ 
