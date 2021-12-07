@@ -33,7 +33,7 @@ public class Methods_6 {
         if(a_price>3000)
             d_price = a_price-(a_price*0.25);
         if(a_price<=3000||a_price>=2000)
-            d_price = a_price-(a_price*0.25);
+            d_price = a_price-(a_price*0.15);
         if(a_price<2000)
             d_price = a_price-(a_price*0.05);
     }
