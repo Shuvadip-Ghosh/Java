@@ -1,4 +1,3 @@
- 
 import java.lang.Math;
 public class test {
     public static void main(String[] args) {
@@ -39,8 +38,7 @@ public class test {
         //     default:System.out.println("Examination"); 
         // }
 
-        double re = Math.round(Math.max(Math.abs(-21.5), -11.9));
-        System.out.print(re);
+        //double re = Math.round(Math.max(Math.abs(-21.5), -11.9));
     }
     
 }

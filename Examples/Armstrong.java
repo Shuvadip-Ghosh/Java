@@ -28,6 +28,7 @@ public class Armstrong {
             System.out.println(n1+" is not a Armstrong Number");
         }
     }
+
     public static void main(String[] args) {
      Armstrong ob = new Armstrong();
      ob.while_loop();
