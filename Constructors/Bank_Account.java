@@ -10,6 +10,7 @@
 // Write a main method to create an object and call the above methods.
 
 package Constructors;
+
 import java.util.Scanner;
 public class Bank_Account {
     String name;long acc_no;double b_amt;

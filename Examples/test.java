@@ -19,7 +19,7 @@ public class test {
         
         // int p=10; 
         // int r = ++p * p++ /3 + p; 
-        // System.out.println(r);
+        // System.out.println(3%10);
         
         // int n=97; 
         // char ch; 
@@ -39,6 +39,8 @@ public class test {
         // }
 
         //double re = Math.round(Math.max(Math.abs(-21.5), -11.9));
+        double t = Math.abs(-17.9);
+        System.out.println(t);
     }
     
 }
