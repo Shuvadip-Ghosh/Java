@@ -1,5 +1,6 @@
-// Wap to input 12 integer value in an array num [ ] and display the maximum as well as minimum value in array.
-package Arrays;
+// Wap to input 12 integer value in an array num [ ] and 
+// display the maximum as well as minimum value in array.
+
 
 import java.util.Scanner;
 
@@ -10,9 +11,6 @@ public class Array_2 {
         System.out.println("Enter 12 integer values in an array : ");
         for (int i = 0; i < num.length; i++) {
             num[i] = sc.nextInt();
-            System.out.println(num[i]);
-        }
-        for (int i = 0; i < num.length; i++) {
             System.out.println(num[i]);
         }
         int max = num[0],min = num[0];

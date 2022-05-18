@@ -18,5 +18,6 @@ class StringArray_Vowel{
                 System.out.print(wrd[i]+"\t");
             }
         }
+        sc.close();
     }
 }

@@ -1,18 +1,18 @@
-package Arrays;
-// Wap to input 10 integet elements in an array. Display the sum of all the prime elements in the array.
+// Wap to input 10 integet elements in an array. 
+// Display the sum of all the prime elements in the array.
 import java.util.Scanner; 
 public class Array_6 {
     int prime(int n)
         {
-                int i, c=0;
-                for(i=1;i<=n;i++){
-                    if(n%i==0)
-                        c++;
-                }
-                if(c==2)
-                        return 1;
-                else
-                        return 0;
+            int i, c=0;
+            for(i=2;i<n;i++){
+                if(n%i==0)
+                    c++;
+            }
+            if(c>0)
+                    return 0;
+            else
+                    return 1;
         }
     public static void main(String[]args){
         Array_6 ob = new Array_6();

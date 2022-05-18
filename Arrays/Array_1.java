@@ -1,5 +1,6 @@
-// WAP to input 10 integer elements in an array. Display the sum of even elementsand product of the odd elements.
-package Arrays;
+// WAP to input 10 integer elements in an array. 
+// Display the sum of even elements and product of the odd elements.
+
 import java. util.Scanner;
 public class Array_1 {
     public static void main(String[] args) {
