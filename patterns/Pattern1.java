@@ -6,10 +6,9 @@
 //             84
 
 public class Pattern1 {
-
     public static void main(String[] args) {
-        int n = 70,s=3,l=5,num=0;
-        for (int i = 1; i <=5; i++) {
+        int l=9,s=l-2,n = 70,r=9,num=0;
+        for (int i = 1; i <=r; i++) {
             for (int j = 1; j <i; j++) {
                 System.out.print("   ");
             }
