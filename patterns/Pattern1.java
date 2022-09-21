@@ -7,8 +7,8 @@
 
 public class Pattern1 {
     public static void main(String[] args) {
-        // int l=5,s=l-2,r=5,n = 70,num=0; //for 5 rows and coloumn
-        int l=9,s=l-2,n = 70,r=9,num=0; // for 9 rows and coloumns
+        // int l=5,s=l-2,r=l,n = 70,num=0; //for 5 rows and coloumn
+        int l=9,s=l-2,n = 10,r=l,num=0; // for 9 rows and coloumns
         for (int i = 1; i <=r; i++) {
             for (int j = 1; j <i; j++) {
                 System.out.print("   ");
