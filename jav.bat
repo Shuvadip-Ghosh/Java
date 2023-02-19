@@ -5,4 +5,3 @@ set class_name=%arg1:.java=.class%
 set arg1=%arg1:.java= %
 java %arg1%
 del %class_name%
-echo %class_name%
