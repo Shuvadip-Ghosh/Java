@@ -1,7 +1,7 @@
- 
+
 import java.util.Scanner; //import scanner class for taking input
 public class basics {
-    public static void main(String args[]){ 
+    public static void main(String args[]){
     System.out.println("Hello World"); 
     // Taking Input
     // create an object of Scanner class

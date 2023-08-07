@@ -3,7 +3,7 @@
 // Store all the elements that are vowels in an array namel vow[ ]. 
 // Display the original array as well as vow[ ]
 import java.util.Scanner;
-public class test_1 {
+public class Array_7 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
