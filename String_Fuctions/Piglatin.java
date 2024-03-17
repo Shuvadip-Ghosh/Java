@@ -11,9 +11,7 @@ class Piglatin
         int i;
         for(i=0; i<s.length(); i++)
         {
-            char ch = s.charAt(i);
-            ch = Character.toUppercase(ch);
-            if(ch=='A' || ch=='E' || ch=='I' || ch=='O' || ch=='U'){
+            if("AEIUOaeiou".indexOf(s.charAt(i))!=-1){
                 c++;
                 break; //means vowel is found at i
             }

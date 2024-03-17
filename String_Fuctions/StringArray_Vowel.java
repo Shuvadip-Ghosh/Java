@@ -8,7 +8,7 @@ class StringArray_Vowel{
         for(int i =0; i<10; i++){
             wrd[i]=sc.next();
         }
-        System.out.println("The words stsrting vowel are-");
+        System.out.println("The words starting with a vowel are-");
         for(int i=0;i<10;i++){
             String w = wrd[i];
             w=w.trim();

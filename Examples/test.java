@@ -1,4 +1,3 @@
-import java.lang.Math;
 import java.util.Scanner;
 
 public class test {
@@ -40,7 +39,12 @@ public class test {
 
         // double re = Math.round(Math.max(Math.abs(-21.5), -11.9));
         // double t = Math.abs(-17.9);
-        
-    }
 
+        // String st = "Is the cold water frozen?";
+        // // String st = "The child is father of the man!";
+        // if ("AEIOUaeiou".indexOf('a')!=-1) {
+        //     System.out.println("hello");
+        // }
+    }
+    
 }

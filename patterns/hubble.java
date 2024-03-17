@@ -1,3 +1,4 @@
+package patterns;
 import java.util.*;
 class hubble
 {

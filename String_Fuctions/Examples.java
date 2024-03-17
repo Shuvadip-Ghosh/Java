@@ -24,12 +24,12 @@ public class Examples {
 
         // substring (start to end)
         String s = st.substring(4);
-        System.out.println("The String from Index 4 till the end is \n" + s);
+        System.out.println("The String from Index 4 till the end is :-" + s);
         System.out.println("--------------------------------------------------");
 
         // substring (start index to stop index.)
         String s1 = st.substring(4, 9);
-        System.out.println("The String from Index 4 till the index 9 is \n" + s1);
+        System.out.println("The String from Index 4 till the index 9 is :-" + s1);
         System.out.println("--------------------------------------------------");
 
         // toLowerCase
@@ -59,9 +59,9 @@ public class Examples {
         String inn = sc.nextLine();
         boolean b = st.equals(inn);
         if (b == false)
-            System.out.println(inn + " is not equal to this is not a sample text.");
+            System.out.println(inn + " is not equal to the above sentence.");
         else
-            System.out.println(inn + " is equal to this is not a sample text");
+            System.out.println(inn + " is equal to the above sentence.");
         System.out.println("--------------------------------------------------");
 
         // equalsIgnoreCase

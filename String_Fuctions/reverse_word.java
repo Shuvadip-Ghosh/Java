@@ -1,4 +1,4 @@
- // Wap to input a word and display its reverse
+// Wap to input a word and display its reverse
 import java.util.*;
  class reverse_word{
      public static void main(String[] args){

@@ -12,10 +12,9 @@ public class letter_change {
         sen = sen.toUpperCase();
         for(int i=0;i<sen.length();i++){
             char ch = sen.charAt(i);
-            char c = ch;
-            if((Character.isLetter(ch))&&(ch!='A'&&ch!='E'&&ch!='I'&&ch!='O'&&ch!='U')){
+            if((Character.isLetter(ch))&&("AEIUOaeiou".indexOf(ch)==-1)){
                     char chr = (char)((int)ch - 1);
-                    if(chr=='A'||chr=='E'||chr=='I'||chr=='O'||chr=='U')
+                    if("AEIUOaeiou".indexOf(chr)!=-1)
                         chr = (char)((int)ch + 1);
                     newsen = newsen+chr;
             }

@@ -1,5 +1,5 @@
-//  put the name : Result
-// Dara members : String name ( name of the student) ; int m1 m2 M3 m4 ( marks of four subjects out of 100);
+// Class name : Result
+// Data members : String name ( name of the student) ; int m1 m2 M3 m4 ( marks of four subjects out of 100);
 // int tot(total marks), maxmarks(maximum marks) , double avg(average marks)
 // Member methods :
 // 1) A parameterised constructor to input the name amd marks of the student

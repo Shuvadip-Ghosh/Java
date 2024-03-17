@@ -11,9 +11,9 @@ public class basics {
     String varName = input.nextLine();
     // integer input
     int n1 = input.nextInt();
-    int n3 = input.nextInt();
+    int n2 = input.nextInt();
     // double input
-    double n2 = input.nextDouble();
+    double n3 = input.nextDouble();
     // character input
     char a = input.next().charAt(0);
 
@@ -29,6 +29,6 @@ public class basics {
         // If condition is False then this block will get executed
     }
     // Ternery Operator
-    // max = (n1 > n2) ? n1 : n2;
+    int max = (n1 > n2) ? n1 : n2;
     } 
 }

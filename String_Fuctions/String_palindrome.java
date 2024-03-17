@@ -1,4 +1,3 @@
-
 // wap to input 5 words in an array. Display those words that are palindrome
 import java.util.*;
 
